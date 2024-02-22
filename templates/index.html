@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <style>
+            .ud {padding: 20px; margin: 10px; background-color: #64eef0;}
+
+        </style>
+    </head>
+<body>
+    <form  action="http://127.0.0.1:8081/savecandid" method="POST">
+        <p><label for="cntnt">Candidate name </label></p>
+        <p><input type="text" name="cntnt" placeholder="Test"></p>
+        <p><label for="edu"> Education</label></p>
+        <p><input type="radio" name="edu" required  value="PUC Completed"> <label> PUC Completed</label> </p>
+        <p><input type="radio" name="edu" required value="Degree Completed"> <label>Degree Completed</label> </p>
+        <input type="submit"> Submit</button>
+    </form>
+    <hr>
+    <p><h1> Registered Candidates</h1> </p>
+ <!--   {% for ud in userdet %}
+        <div class="ud">
+            <p>{{ud['nms']}} <i>( {{ud['educns']}})</i></p>
+        </div>
+    {% endfor %}
+    -->
+</body>
+
+</html>>
